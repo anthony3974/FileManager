@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{95654EF1-649C-42FA-8272-CDBD237E3F18}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FileManager</RootNamespace>
     <AssemblyName>FileManager</AssemblyName>
@@ -32,7 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>mainy</StartupObject>
+    <StartupObject>
+    </StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BaseClassLibrary">
@@ -52,7 +53,6 @@
     <Compile Include="FileManager\FileRenamer.cs" />
     <Compile Include="FileManager\FileRename.cs" />
     <Compile Include="FileManager\MediaManipulation\MusicRenamer.cs" />
-    <Compile Include="mainy.cs" />
     <Compile Include="FileManager\MediaManipulation\MovieRenamer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
