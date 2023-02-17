@@ -16,7 +16,7 @@ namespace FileManager.MediaManipulation
         /// Gets version of the class
         /// </summary>
         /// <returns>Version</returns>
-        public new string getVersion() { return "1"; }
+        public new string getVersion() { return "1.0.1"; }
         #endregion
         #region constructor
         /// <summary>
@@ -41,7 +41,7 @@ namespace FileManager.MediaManipulation
             for (int i = 0; i < fr.Length; i++)
             {
                 string nameToEdit = fr[i].Fi.Name;
-                Match match = Regex.Match(nameToEdit, @"\d+(P|p)");
+                Match match = Regex.Match(nameToEdit, "\\d(P|p)");
                 if (match.Success)
                 {
                     nameToEdit = nameToEdit.Substring(0, match.Index + match.Length - 1); // chop
