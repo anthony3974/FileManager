@@ -36,7 +36,7 @@ namespace FileManager
         /// <param name="newName">The name to change the file to</param>
         public void ReName(string newName)
         {
-            if (newName.Contains(fi.Extension+fi.Extension)) newName = newName.Substring(0,newName.Length-fi.Extension.Length*2);
+            if (newName.EndsWith(fi.Extension)) newName = newName.Substring(0,newName.Length-fi.Extension.Length);
             string newFile = fi.DirectoryName + "\\" + newName + fi.Extension;
             File.Move(fi.FullName, newFile);
             fi = new FileInfo(newFile);
