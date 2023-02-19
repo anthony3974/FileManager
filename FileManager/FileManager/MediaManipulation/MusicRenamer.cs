@@ -35,7 +35,7 @@ namespace FileManager.MediaManipulation
             for (int i = 0; i < fr.Length; i++)
             {
                 string nameToEdit = fr[i].Fi.Name;
-                
+
                 Regex pat = new Regex("( \\(\\d{1,3} [a-z]{1,4}\\))|( \\(\\d{1,3}(k|K)\\))");
                 nameToEdit = pat.Replace(nameToEdit, ""); // removing (128 k)
 

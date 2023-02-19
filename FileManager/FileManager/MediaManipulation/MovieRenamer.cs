@@ -33,7 +33,7 @@ namespace FileManager.MediaManipulation
         /// Removes multi spaces
         /// Removes everything after p and makes p upper
         /// </summary>
-        public void Fix() 
+        public void Fix()
         {
             RemoveSpecial();
             RemoveSpaces();

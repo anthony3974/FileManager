@@ -14,7 +14,7 @@ namespace FileManager
         /// Gets version of the class
         /// </summary>
         /// <returns>Version</returns>
-        public string getVersion() { return "1"; }
+        public string getVersion() { return "1.0.1"; }
         #endregion
         #region constructor
         /// <summary>
@@ -36,7 +36,7 @@ namespace FileManager
         /// <param name="newName">The name to change the file to</param>
         public void ReName(string newName)
         {
-            if (newName.EndsWith(fi.Extension)) newName = newName.Substring(0,newName.Length-fi.Extension.Length);
+            if (newName.EndsWith(fi.Extension)) newName = newName.Substring(0, newName.Length - fi.Extension.Length);
             string newFile = fi.DirectoryName + "\\" + newName + fi.Extension;
             File.Move(fi.FullName, newFile);
             fi = new FileInfo(newFile);
@@ -83,7 +83,7 @@ namespace FileManager
         /// <summary>
         /// Get the FileInfo object
         /// </summary>
-        public FileInfo Fi { get { return fi; } }
+        public FileInfo Fi { get => fi; }
         #endregion
     }
 }
