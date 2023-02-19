@@ -14,7 +14,7 @@ public class FFScaner : BaseClass
     /// Gets version of the class
     /// </summary>
     /// <returns>Version</returns>
-    public string getVersion() { return "1"; }
+    public string getVersion() { return "1.0.1"; }
     #endregion
     #region methods
     /// <summary>
@@ -23,7 +23,7 @@ public class FFScaner : BaseClass
     /// <param name="mainPath">The path to start the scanning for files</param>
     /// <param name="endsWith">Sort only this ending</param>
     /// <param name="doesNotEndWith">If true will exculde selceted files</param>
-    /// <returns></returns>
+    /// <returns>List of file path names</returns>
     public static List<string> ScanFiles(string mainPath, string endsWith = null, bool doesNotEndWith = false)
     {
         List<string> returnList = new List<string>();
@@ -57,7 +57,7 @@ public class FFScaner : BaseClass
     /// <param name="mainPath">The path to start the scanning for files</param>
     /// <param name="endsWith">Sort only these endings</param>
     /// <param name="doesNotEndWith">If true will exculde selceted files</param>
-    /// <returns></returns>
+    /// <returns>List of file path names</returns>
     public static List<string> ScanFiles(string mainPath, string[] endsWith, bool doesNotEndWith = false)
     {
         List<string> returnList = new List<string>();
