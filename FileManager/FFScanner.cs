@@ -14,7 +14,7 @@ public class FFScaner : BaseClass
     /// Gets version of the class
     /// </summary>
     /// <returns>Version</returns>
-    public string getVersion() { return "1.0.1"; }
+    public string getVersion() { return "1.0.1.7"; }
     #endregion
     #region methods
     /// <summary>
