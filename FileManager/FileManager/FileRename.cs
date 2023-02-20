@@ -14,7 +14,7 @@ namespace FileManager
         /// Gets version of the class
         /// </summary>
         /// <returns>Version</returns>
-        public string getVersion() { return "1.0.1"; }
+        public string getVersion() { return "1.0.2"; }
         #endregion
         #region constructors
         /// <summary>
@@ -83,7 +83,7 @@ namespace FileManager
         /// <summary>
         /// Get the FileInfo object
         /// </summary>
-        public FileInfo Fi { get => fi; }
+        public FileInfo Fi { get { return fi; } }
         #endregion
     }
 }
