@@ -33,7 +33,7 @@ namespace FileManager
         /// <summary>
         /// Renames the file, extension incuded (will not save double extension)
         /// </summary>
-        /// <param name="newName">The name to change the file to</param>
+        /// <param name="newName">Sets the name to change the file to</param>
         public void ReName(string newName)
         {
             if (newName.EndsWith(fi.Extension)) newName = newName.Substring(0, newName.Length - fi.Extension.Length);

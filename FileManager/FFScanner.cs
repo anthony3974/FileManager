@@ -20,7 +20,7 @@ public class FFScaner : BaseClass
     /// <summary>
     /// List all files in master directory
     /// </summary>
-    /// <param name="mainPath">The path to start the scanning for files</param>
+    /// <param name="mainPath">Sets the path to start the scanning for files</param>
     /// <param name="endsWith">Sort only this ending</param>
     /// <param name="doesNotEndWith">If true will exculde selceted files</param>
     /// <returns>List of file path names</returns>
@@ -54,7 +54,7 @@ public class FFScaner : BaseClass
     /// <summary>
     /// List all files in master directory
     /// </summary>
-    /// <param name="mainPath">The path to start the scanning for files</param>
+    /// <param name="mainPath">Sets the path to start the scanning for files</param>
     /// <param name="endsWith">Sort only these endings</param>
     /// <param name="doesNotEndWith">If true will exculde selceted files</param>
     /// <returns>List of file path names</returns>
