@@ -16,7 +16,7 @@ namespace FileManager
         /// <returns>Version</returns>
         public string getVersion() { return "1.0.1"; }
         #endregion
-        #region constructor
+        #region constructors
         /// <summary>
         /// Makes a new FileRename
         /// </summary>

@@ -18,7 +18,7 @@ namespace FileManager.MediaManipulation
         /// <returns>Version</returns>
         public new string getVersion() { return "1.0.1"; }
         #endregion
-        #region constructor
+        #region constructors
         /// <summary>
         /// Makes a new MovieRenamer using FileRenamer
         /// </summary>
