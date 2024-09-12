@@ -1,5 +1,4 @@
-﻿using BaseClassLibrary;
-using System.IO;
+﻿using System.IO;
 using System.Text.RegularExpressions;
 
 namespace FileManager
@@ -7,7 +6,7 @@ namespace FileManager
     /// <summary>
     /// Renames a single file dynamically
     /// </summary>
-    public class FileRename : BaseClass
+    public class FileRename
     {
         #region class info
         /// <summary>
