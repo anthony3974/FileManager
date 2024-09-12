@@ -1,5 +1,4 @@
-﻿using BaseClassLibrary;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 namespace FileManager.MediaManipulation
 {
@@ -7,7 +6,7 @@ namespace FileManager.MediaManipulation
     /// Renames mp3 (recommended (works with any file extention))
     /// Removes (128 k) and Official Music Video Audio lyric ([])
     /// </summary>
-    public class MusicRenamer : FileRenamer, BaseClass
+    public class MusicRenamer : FileRenamer
     {
         #region class info
         /// <summary>

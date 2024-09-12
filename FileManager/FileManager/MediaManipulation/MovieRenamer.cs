@@ -1,5 +1,4 @@
-﻿using BaseClassLibrary;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 namespace FileManager.MediaManipulation
 {
@@ -9,7 +8,7 @@ namespace FileManager.MediaManipulation
     /// Input file can be diffrent (should incude trailing p)
     /// Renames to "The Movie Name YEAR ####P.EXT
     /// </summary>
-    public class MovieRenamer : FileRenamer, BaseClass
+    public class MovieRenamer : FileRenamer
     {
         #region class info
         /// <summary>
