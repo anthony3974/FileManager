@@ -1,5 +1,4 @@
-﻿using BaseClassLibrary;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,7 +6,7 @@ using System.Linq;
 /// <summary>
 /// Can scan files within folders and can exculde or incude certain files
 /// </summary>
-public class FFScaner : BaseClass
+public class FFScaner
 {
     #region class info
     /// <summary>
