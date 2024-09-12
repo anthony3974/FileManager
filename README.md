@@ -1,5 +1,6 @@
 # FileManager
 
-almost done
+To make managing files easyer
+To remove junk characters from files
 
-**[docs](http://sharing-4269.infinityfreeapp.com/old/FileManager.html)**
+**[docs](https://tonycad.com/docs/FileManager.html)**
