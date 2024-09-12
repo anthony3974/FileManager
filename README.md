@@ -1,4 +1,4 @@
-# FileManager
+# FileManager | Class Library
 
 To make managing files easyer
 To remove junk characters from files
